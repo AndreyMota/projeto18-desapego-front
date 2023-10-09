@@ -74,7 +74,7 @@ export default function AddProduct() {
   useEffect(() => {
     // Verificar se o usuário não está logado e redirecionar para a página de login
     if (!user) {
-      navigate('/login');
+      navigate('/');
     }
   }, [user, navigate]);
 
